@@ -1,15 +1,15 @@
-//les fonctions
+//Click ecent
 
-(function () {
-  console.log("Hello Steve!");
-})();
+const questionContainer = document.querySelector(".click-event");
+const btn1 = document.getElementById("btn-1");
+const btn2 = document.getElementById("btn-2");
+const response = document.getElementById("response");
 
-const gruess = (name) => {
-  console.log("Hello " + name);
-};
+console.log(response);
 
-gruess("Steve !");
+questionContainer.addEventListener("click", () => {
+  questionContainer.classList.toggle("question-click");
+});
 
-function calc(x, y) {
-  return x + y;
-}
+btn1.addEventListener("click", () => {});
+btn2.addEventListener("click", () => {});

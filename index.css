@@ -23,3 +23,8 @@ p {
   width: 240px;
   margin: 10px auto 0;
 }
+.question-click {
+  background: red;
+  border-radius: 150px;
+  border: 6px dashed pink;
+}
